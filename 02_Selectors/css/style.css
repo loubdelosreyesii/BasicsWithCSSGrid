@@ -1,0 +1,42 @@
+/* UNIVERSAL SELECTOR : RESET*/
+/* TOP DOWN */
+* {
+  font-family: monospace;
+}
+/* ELEMENT SELECTOR */
+body {
+  font-size: 22px;
+}
+/* ELEMENT SELECTOR */
+p {
+  color: purple;
+}
+p {
+  color: red;
+}
+
+/* p span {
+  text-transform: uppercase;
+  background-color: gold;
+} */
+
+.highlight {
+  text-transform: uppercase;
+  background-color: gold;
+}
+/* GROUP SELECTORS separated by comma */
+h1,
+h2,
+#second {
+  color: blue;
+}
+
+/* CLASS SELECTOR */
+.gray {
+  color: gray;
+}
+
+/* ID SELECTOR */
+#second {
+  font-style: italic;
+}
