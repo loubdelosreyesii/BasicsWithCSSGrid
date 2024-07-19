@@ -1,0 +1,9 @@
+/* p = Selector
+color = property
+purple = property value; 
+whole structure called ruleset/rule
+*/
+p {
+  font-size: 64px;
+  color: purple;
+}
