@@ -1,0 +1,45 @@
+/* UNIVERSAL SELECTOR : RESET*/
+
+/* ELEMENT SELECTOR */
+body {
+  font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.5;
+
+  /* SAME EFFECTS BELOW*/
+  background-color: blue;
+  background: papayawhip;
+  /* color: darkblue; */
+  /* using RGB */
+  /* color: rgb(255, 0, 0);
+  color: rgb(0, 255, 0);
+  color: rgb(0, 0, 255); */
+}
+p {
+  color: rgb(0, 0, 0);
+  /* using RGBA */
+  /* Aplha: for transparency */
+  /* 0 transparent 1  full dark*/
+  color: rgba(0, 0, 0, 1);
+  /* using hexadecimal */
+  color: #000000;
+  color: #ffffff;
+  color: #ff0000;
+  color: #00ff00;
+  color: #0000ff;
+  /* shorthand  */
+  color: #000;
+  color: #fff;
+  color: #f00;
+  color: #0f0;
+  color: #00f;
+
+  color: #808080;
+
+  color: rgba(34, 82, 216, 0.904);
+  color: #333;
+}
+
+/* COLORS PALETTES AVAILABLE */
+/* coolors.co */
+/* coolors.co/contrast-checker */
