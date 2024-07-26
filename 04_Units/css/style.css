@@ -31,3 +31,5 @@ p {
 
 /* em - relative to the its self property
    rem - relative to the root element property */
+/* % instead of using vw, if instance occured the developer wanted to 
+does not want to hide the horizontal scrollbar. */
