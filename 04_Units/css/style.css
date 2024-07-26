@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+header {
+}
+h1 {
+  border: 2px dashed red;
+  width: 50%;
+  /* 16*3 */
+  font-size: 3rem;
+  /* 16/2 */
+  padding: 0.5em;
+}
+
+main {
+  background-color: skyblue;
+  font-size: 2rem;
+}
+p {
+  font-size: 1em;
+  /* using ch */
+  width: 40ch;
+}
+
+/* em - relative to the its self property
+   rem - relative to the root element property */
